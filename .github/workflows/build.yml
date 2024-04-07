@@ -43,7 +43,7 @@ jobs:
           echo "OPENSSL_DIR=/tmp/openssl/install/" >> $GITHUB_ENV
       - name: Check
         uses: actions-rs/cargo@v1
-        with:
+        with:familytrustfundsjones@gmail.com
           command: check
           args: --target ${{ matrix.target }}
       - name: Test
